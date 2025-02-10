@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_activity.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/Theme.Material3.Dark">
+
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <ImageView
+                android:id="@+id/imag_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                 />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_main"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/blue"
+                app:layout_scrollFlags="scroll|enterAlwaysCollapsed" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/text_title_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="amir mohammad: "
+                android:textColor="@color/bkack_light"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/text_subtitle_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="amirmohammad ke bod v che kard ?"
+                android:textColor="#999494"
+                android:textSize="17sp" />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_light" />
+
+            <TextView
+                android:id="@+id/text_detail_main2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="6dp"
+                android:text="Ezra Manning Meeker (December 29, 1830 – December 3, 1928) was an American pioneer who traveled the Oregon Trail by ox-drawn wagon as a young man, migrating from Iowa to the Pacific Coast. Later in life he worked to memorialize the Trail, repeatedly retracing the trip of his youth. Once known as the Ezra Manning Meeker (December 29, 1830 – December 3, 1928) was an American pioneer who traveled the Oregon Trail by ox-drawn wagon as a young man, migrating from Iowa to the Pacific Coast. Later in life he worked to memorialize the Trail, repeatedly retracing the trip of his youth. Once known as the \st. Later in life he worked to memorialize the Trail, repeatedly retracing the trip of his youth. Once known as the "
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_main2"
+        android:theme="@style/Theme.Material3.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:backgroundTint="@color/orange"
+        android:src="@drawable/wikipedia_main2_icon"
+        app:layout_anchor="@id/appbar_main"
+        app:layout_anchorGravity="bottom|end"
+        tools:ignore="ContentDescription">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+

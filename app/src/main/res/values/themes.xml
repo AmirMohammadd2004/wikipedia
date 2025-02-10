@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Wikipedia" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="fontFamily">@font/primary_regular</item>
+//////////////////////////////////////////////////////////////////
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        ////////////////////////////////////////////////
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+    </style>
+
+    <style name="Theme.Wikipedia" parent="Base.Theme.Wikipedia" />
+
+    <style name="TollBar" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="fontFamily">@font/primary_bold</item>
+        <item name="android:textSize">24sp</item>
+
+
+    </style>
+
+
+</resources>

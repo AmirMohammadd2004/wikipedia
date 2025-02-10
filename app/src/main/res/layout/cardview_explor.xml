@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    app:cardElevation="0.5dp"
+    android:layout_marginTop="28dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="7dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/Image_Explore_main"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/test" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/text_explor_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="amir mohammad: "
+                android:textColor="@color/bkack_light"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/text_explor_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="amirmohammad ke bod v che kard ?"
+                android:textColor="#999494"
+                android:textSize="17sp" />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_light" />
+            <TextView
+                android:id="@+id/text_explore_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="6dp"
+                android:maxLines="8"
+                android:text="Ezra Manning Meeker (December 29, 1830 – December 3, 1928) was an American pioneer who traveled the Oregon Trail by ox-drawn wagon as a young man, migrating from Iowa to the Pacific Coast. Later in life he worked to memorialize the Trail, repeatedly retracing the trip of his youth. Once known as the Ezra Manning Meeker (December 29, 1830 – December 3, 1928) was an American pioneer who traveled the Oregon Trail by ox-drawn wagon as a young man, migrating from Iowa to the Pacific Coast. Later in life he worked to memorialize the Trail, repeatedly retracing the trip of his youth. Once known as the \st. Later in life he worked to memorialize the Trail, repeatedly retracing the trip of his youth. Once known as the "
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

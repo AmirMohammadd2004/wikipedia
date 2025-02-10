@@ -31,3 +31,31 @@ google-services.json
 
 # Android Profiling
 *.hprof
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local configuration
+local.properties
+
+# Logs
+*.log
+
+# Output files
+*.apk
+*.aab
+
+# Sensitive files
+*.keystore
+.env
+

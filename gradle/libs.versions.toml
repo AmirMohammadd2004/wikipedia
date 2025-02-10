@@ -1,0 +1,40 @@
+[versions]
+agp = "8.7.2"
+androidSweetalert2 = "2.0.2"
+compiler = "4.12.0"
+glide = "4.16.0"
+glideTransformations = "4.3.0"
+kotlin = "1.9.24"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+library = "1.3"
+libraryVersion = "1.5.1"
+material = "1.12.0"
+activity = "1.10.0"
+constraintlayout = "2.2.0"
+sweetAlertDialog = "v1."
+
+[libraries]
+android-sweetalert2 = { module = "com.github.taimoorsultani:android-sweetalert2", version.ref = "androidSweetalert2" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide-transformations = { module = "jp.wasabeef:glide-transformations", version.ref = "glideTransformations" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+library = { module = "cn.pedant.sweetalert:library", version.ref = "library" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+sweet-alert-dialog = { module = "com.github.Tafreshians:Sweet-Alert-Dialog", version.ref = "sweetAlertDialog" }
+sweetalert-library = { module = "com.github.f0ris.sweetalert:library", version.ref = "libraryVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
